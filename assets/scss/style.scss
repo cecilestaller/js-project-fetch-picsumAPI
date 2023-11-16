@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    margin: 3%;
+    font-family: sans-serif;
+    h1 {
+        margin-bottom: 5vh;
+    }
+
+    #fetch-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 40px;
+
+        figure {
+            img {
+                max-width: 70%;
+                // object-fit: cover;
+                // display: block;
+            }
+            figcaption {
+                font-weight: bold;
+                margin-block: 1vh;
+                font-size: 1.25rem;
+            }
+            a {
+                text-decoration: none;
+                color: inherit;
+                background-color: orange;
+                padding: 4px 8px;
+                margin-block: 2vh;
+                border-radius: 4px;
+
+                &:hover {
+                    background-color: orangered;
+                    color: white;
+                }
+            }
+        }
+    }
+}
