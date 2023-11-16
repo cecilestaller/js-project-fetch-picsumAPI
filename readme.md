@@ -8,6 +8,8 @@
 
 ## Demo
 
+https://cecilestaller.github.io/js-project-fetch-picsumAPI/
+
 ## Screenshots
 
 ![pap flowchart](./assets/img/screenshot_picsumFetch.png)
